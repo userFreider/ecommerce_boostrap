@@ -3,3 +3,22 @@
 .bg-menu{
     border-bottom: 1px solid #ccc;
 }
+
+
+
+/*carousel*/
+.carousel  .carousel-indicators button{
+width: 10px;
+height: 10px;
+border-radius: 100%;
+}
+
+.carousel{
+    height: 100%;
+    padding-top: 15px;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    width: 45vw;
+    object-fit: cover;
+}
