@@ -1,5 +1,4 @@
 
-
 .bg-menu{
     border-bottom: 1px solid #ccc;
 }
@@ -21,4 +20,14 @@ border-radius: 100%;
     top: 0;
     width: 45vw;
     object-fit: cover;
+}
+
+
+
+/* section innert about*/
+.img-about{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
 }
