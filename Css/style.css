@@ -1,9 +1,15 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 .bg-menu{
     border-bottom: 1px solid #ccc;
 }
 
+.logo-style{
+    height: 58px;
+}
 
+ul li{
+    list-style: none;
+}
 
 /*carousel*/
 .carousel  .carousel-indicators button{
@@ -12,14 +18,15 @@ height: 10px;
 border-radius: 100%;
 }
 
-.carousel{
-    height: 100%;
-    padding-top: 15px;
-    margin: 0 auto;
-    left: 0;
-    top: 0;
-    width: 45vw;
+.carousel-item {
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-item .bg-size{
     object-fit: cover;
+    height: 45vh;
+    
 }
 
 
@@ -30,4 +37,14 @@ border-radius: 100%;
     height: 100px;
     object-fit: cover;
 
+}
+
+
+/* carrusel */
+
+
+.carousel-inner .carousel-item {
+    background-position: center;
+    background-size: cover;
+    
 }
